@@ -1,0 +1,135 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700&amp;subset=cyrillic,cyrillic-ext);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans&amp;subset=cyrillic,cyrillic-ext);
+@import url(https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import "../libs/magnific-popup/dist/magnific-popup.css";
+@import "../libs/owl.carousel/dist/assets/owl.carousel.min.css";
+@import "../libs/owl.carousel/dist/assets/owl.theme.default.min.css";
+
+@font-face {
+    font-family: 'PT Sans';
+    src: url('../fonts/PTSans-Regular.eot');
+    src: local('PT Sans'), local('PTSans-Regular'),
+    url('../fonts/PTSans-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/PTSans-Regular.woff') format('woff'),
+    url('../fonts/PTSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+form, a, input,label{
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+:after,
+:before,
+:hover {
+    box-sizing: border-box;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+input:focus,
+textarea:focus,
+select:focus,
+input,
+textarea,
+select {
+    outline-offset: 0;
+    outline: none;
+}
+
+:focus {
+    outline: none;
+}
+
+html {
+    font-size: 62.5%;
+    margin-right: 0 !important;
+}
+
+body {
+    font-size: 1.5rem;
+    background: #fff;
+    color: #000;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    font-family: 'Roboto Slab', serif;
+}
+
+.ptsans {
+    font-family: 'PT Sans';
+}
+.opensans{
+    font-family: 'Open Sans';
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.hidden, .desc-none {
+    display: none !important;
+}
+
+.visible {
+    display: block !important;
+}
+
+.flex {
+    display: -webkit-flex !important;
+    display: flex !important;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/*********************** INDEX ***************************/
+
+/*********************** MOBILE ***************************/
+
+@media only screen and (max-width: 767px) {
+
+    html {
+        font-size: 42%;
+    }
+    .container {
+        max-width:100%;
+        padding: 0 15px;
+    }
+    .mobile-none{
+        display: none!important;
+    }
+
+}
